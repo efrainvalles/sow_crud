@@ -1,0 +1,136 @@
+CRITICAL - 2022-03-25 12:14:09 --> Class "EmailController" not found
+#0 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Client->save()
+#1 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#2 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\dev\sow_crud_2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\dev\\sow_crud...')
+#5 {main}
+CRITICAL - 2022-03-25 12:14:26 --> Class "EmailController" not found
+#0 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Client->save()
+#1 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#2 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\dev\sow_crud_2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\dev\\sow_crud...')
+#5 {main}
+CRITICAL - 2022-03-25 12:15:14 --> Array to string conversion
+#0 D:\dev\sow_crud_2\app\Controllers\EmailController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'D:\\dev\\sow_crud...', 16)
+#1 D:\dev\sow_crud_2\app\Controllers\Client.php(26): App\Controllers\EmailController->sendEmail(Array, 'Add')
+#2 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Client->save()
+#3 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#4 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\dev\sow_crud_2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\dev\\sow_crud...')
+#7 {main}
+CRITICAL - 2022-03-25 12:16:43 --> Attempt to read property "request" on array
+#0 D:\dev\sow_crud_2\app\Controllers\EmailController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\dev\\sow_crud...', 16)
+#1 D:\dev\sow_crud_2\app\Controllers\Client.php(26): App\Controllers\EmailController->sendEmail(Array, 'Add')
+#2 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Client->save()
+#3 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#4 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\dev\sow_crud_2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\dev\\sow_crud...')
+#7 {main}
+CRITICAL - 2022-03-25 12:17:27 --> Array callback must have exactly two elements
+#0 D:\dev\sow_crud_2\app\Controllers\Client.php(26): App\Controllers\EmailController->sendEmail(Array, 'Add')
+#1 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Client->save()
+#2 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#3 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\dev\sow_crud_2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\dev\\sow_crud...')
+#6 {main}
+CRITICAL - 2022-03-25 12:18:42 --> Undefined array key 0
+#0 D:\dev\sow_crud_2\app\Controllers\EmailController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\dev\\sow_crud...', 16)
+#1 D:\dev\sow_crud_2\app\Controllers\Client.php(26): App\Controllers\EmailController->sendEmail(Array, 'Add')
+#2 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Client->save()
+#3 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#4 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\dev\sow_crud_2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\dev\\sow_crud...')
+#7 {main}
+CRITICAL - 2022-03-25 12:18:55 --> Undefined array key "client_name"
+#0 D:\dev\sow_crud_2\app\Controllers\EmailController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\dev\\sow_crud...', 16)
+#1 D:\dev\sow_crud_2\app\Controllers\Client.php(26): App\Controllers\EmailController->sendEmail(Array, 'Add')
+#2 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Client->save()
+#3 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#4 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\dev\sow_crud_2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\dev\\sow_crud...')
+#7 {main}
+CRITICAL - 2022-03-25 12:26:35 --> Undefined variable $data
+#0 D:\dev\sow_crud_2\app\Controllers\Client.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\dev\\sow_crud...', 51)
+#1 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Client->delete()
+#2 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#3 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\dev\sow_crud_2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\dev\\sow_crud...')
+#6 {main}
+ERROR - 2022-03-25 12:48:11 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): SSL/TLS already set-up for this stream
+ERROR - 2022-03-25 12:53:47 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): SSL/TLS already set-up for this stream
+CRITICAL - 2022-03-25 13:16:08 --> Cannot access offset of type string on string
+#0 D:\dev\sow_crud_2\app\Controllers\Client.php(66): App\Controllers\EmailController->sendEmail('2', 'Delete')
+#1 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Client->delete()
+#2 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#3 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\dev\sow_crud_2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\dev\\sow_crud...')
+#6 {main}
+CRITICAL - 2022-03-25 13:19:09 --> Cannot access offset of type string on string
+#0 D:\dev\sow_crud_2\app\Controllers\Client.php(66): App\Controllers\EmailController->sendEmail('3', 'Delete')
+#1 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Client->delete()
+#2 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#3 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\dev\sow_crud_2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\dev\\sow_crud...')
+#6 {main}
+CRITICAL - 2022-03-25 13:19:53 --> Cannot access offset of type string on string
+#0 D:\dev\sow_crud_2\app\Controllers\Client.php(66): App\Controllers\EmailController->sendEmail('4', 'Delete')
+#1 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Client->delete()
+#2 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#3 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\dev\sow_crud_2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\dev\\sow_crud...')
+#6 {main}
+CRITICAL - 2022-03-25 13:20:29 --> Cannot access offset of type string on string
+#0 D:\dev\sow_crud_2\app\Controllers\Client.php(66): App\Controllers\EmailController->sendEmail('6', 'Delete')
+#1 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Client->delete()
+#2 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#3 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\dev\sow_crud_2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\dev\\sow_crud...')
+#6 {main}
+CRITICAL - 2022-03-25 13:20:45 --> Cannot access offset of type string on string
+#0 D:\dev\sow_crud_2\app\Controllers\Client.php(66): App\Controllers\EmailController->sendEmail('6', 'Delete')
+#1 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Client->delete()
+#2 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#3 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\dev\sow_crud_2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\dev\\sow_crud...')
+#6 {main}
+CRITICAL - 2022-03-25 13:20:49 --> Cannot access offset of type string on string
+#0 D:\dev\sow_crud_2\app\Controllers\Client.php(66): App\Controllers\EmailController->sendEmail('7', 'Delete')
+#1 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Client->delete()
+#2 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#3 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\dev\sow_crud_2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\dev\\sow_crud...')
+#6 {main}
+CRITICAL - 2022-03-25 13:52:37 --> Invalid file: welcome_message.php
+#0 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 D:\dev\sow_crud_2\app\Controllers\Home.php(9): view('welcome_message')
+#3 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\dev\sow_crud_2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\dev\\sow_crud...')
+#8 {main}
+CRITICAL - 2022-03-25 13:52:49 --> Invalid file: welcome_message.php
+#0 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 D:\dev\sow_crud_2\app\Controllers\Home.php(9): view('welcome_message')
+#3 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\dev\sow_crud_2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\dev\sow_crud_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\dev\\sow_crud...')
+#8 {main}
